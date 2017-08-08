@@ -1,1 +1,142 @@
-/** #d85e3b, #333333, #565455, #f2f8f6, #fdf1d7, #f2f8f6, #e0e0e0, #dbdbdb, #4d4d4d**/
+/** #d85e3b, #333333, #565455, #f2f8f6, #fdf1d7, #e0e0e0, #dbdbdb, #4d4d4d**/
+
+@font-face {
+    font-family: Helvitica, Monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sectionHeaderText {
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+/***********************************
+			Header CSS
+***********************************/
+
+.header {
+    background: url('../images/Landing_Hero_Image.jpg') fixed no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.nav-wrapper
+{
+	background-color: rgba(0,0,0,0);
+}
+.navigation {
+    margin: 20px;
+    display: inline-block;
+}
+
+.navigationButtons {
+    display: inline-block;
+}
+
+.logoImage {
+    width: 10%;
+    float: left;
+}
+
+.logoSideText>p {
+    margin-left: 20px;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.headerContentBox {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    width: 40%;
+}
+
+
+
+/*******************************
+		About Us CSS
+********************************/
+
+.aboutUsContainer {
+    background-color: #f2f8f6;
+}
+
+.aboutUsIcons {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.aboutUsBox {
+    padding: 40px;
+    width: 300px;
+}
+
+.aboutUsImage {
+    margin: auto;
+    width: 40%;
+}
+
+
+/********************************
+		Success Stories CSS
+********************************/
+
+.successStoriesContainer {
+    background-color: #e0e0e0;
+}
+
+.successStoriesImage {
+    padding: 50px;
+}
+
+
+/***************************
+		News CSS
+***************************/
+
+.newsContainer {
+    background-color: #f2f8f6;
+}
+
+
+/***************************
+		Client CSS
+***************************/
+
+.logo-filter {
+    filter: grayscale(100%);
+}
+
+.client-logo {
+	margin: auto;
+	width: 80%;
+}
+
+.clientsContainer {
+    background-color: #dbdbdb
+}
+
+
+/***************************
+		Contact Us CSS
+***************************/
+
+.contactUsContainer {
+    background-color: #f2f8f6;
+}
+
+
+/***************************
+		Footer CSS
+***************************/
