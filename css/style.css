@@ -22,7 +22,23 @@ body {
     margin: 20px auto;
 }
 
+.clearfix {
+    clear: both;
+}
 
+.career-button {
+	background-color: #d85e3b;
+	border: 2px solid #d85e3b ;
+	border-radius: 0;
+	color: #f2f8f6;
+}
+
+.career-button:hover{
+	background-color: transparent;
+	border: 2px solid #d85e3b ;
+	border-radius: 0;
+	color: #d85e3b;
+}
 
 /***********************************
 			Header CSS
@@ -34,8 +50,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 .navigation {
@@ -52,10 +67,6 @@ body {
     margin-left: 20px;
 }
 
-.clearfix {
-    clear: both;
-}
-
 .header-content-box {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 20px;
@@ -64,6 +75,16 @@ body {
 
 .register-now-button {
     margin: 15px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.navbar a{
+	font-weight: bold;
+	color:#4d4d4d; 
+}
+.navbar a:focus{
+	background-color: transparent;
+	border-bottom: 3px solid #d85e3b;
 }
 
 
@@ -79,18 +100,19 @@ body {
 
 .about-us-icons {
     margin: auto;
+    width: 80%;
     text-align: center;
 }
 
 .about-us-box {
-    margin: auto;
-    padding: 40px;
+    margin: 40px;
 }
 
 .about-us-image {
     margin: auto;
     width: 20%;
 }
+
 
 
 
@@ -108,6 +130,7 @@ body {
 
 
 
+
 /***************************
 		News CSS
 ***************************/
@@ -115,6 +138,11 @@ body {
 .news-container {
     background-color: #f2f8f6;
 }
+
+.news-image-box {
+    box-shadow:
+}
+
 
 
 
@@ -135,13 +163,25 @@ body {
     background-color: #dbdbdb
 }
 
+.client-icon-container {
+    margin: auto;
+    width: 80%;
+}
+
+
 /***************************
 		Testimonial CSS
 ***************************/
-.testimonials-box{
-	background-color: rgba(255, 255, 255, 0.8);
-	margin: 5px;
-	padding: 20px;
+
+.testimonials-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 45px;
+    padding: 20px;
+}
+
+.testimonial-container {
+    margin: auto;
+    width: 80%;
 }
 
 
@@ -160,16 +200,21 @@ body {
 }
 
 
-.testimonial-container{
-	padding:  60px;
-	width: 100%;
-}
-
-
 /***************************
 		Footer CSS
 ***************************/
 
 .footer {
-    background-color: #565455;
+    background-color: #333333;
+    margin: 0;
+}
+
+.footer-content {
+    margin: auto;
+    width: 80%;
+}
+
+.footer-text {
+    text-align: center;
+    color: #f2f8f6;
 }
