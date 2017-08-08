@@ -9,9 +9,17 @@ body {
     padding: 0;
 }
 
-.sectionHeaderText {
-    text-align: center;
+.section-header-text {
     padding: 30px;
+    text-align: center;
+}
+
+.text-border {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #d85e3b;
+    margin: 20px auto;
 }
 
 
@@ -29,37 +37,35 @@ body {
     width: 100%;
     height: 500px;
 }
-.nav-wrapper
-{
-	background-color: rgba(0,0,0,0);
-}
+
 .navigation {
     margin: 20px;
     display: inline-block;
 }
 
-.navigationButtons {
-    display: inline-block;
-}
-
-.logoImage {
+.logo-image {
     width: 10%;
     float: left;
 }
 
-.logoSideText>p {
+.logo-side-text>p {
     margin-left: 20px;
 }
 
-.clearFix {
+.clearfix {
     clear: both;
 }
 
-.headerContentBox {
+.header-content-box {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 20px;
     width: 40%;
 }
+
+.register-now-button {
+    margin: 15px;
+}
+
 
 
 
@@ -67,47 +73,49 @@ body {
 		About Us CSS
 ********************************/
 
-.aboutUsContainer {
+.about-us-container {
     background-color: #f2f8f6;
 }
 
-.aboutUsIcons {
+.about-us-icons {
     margin: auto;
     text-align: center;
-    width: 100%;
 }
 
-.aboutUsBox {
-    padding: 40px;
-    width: 300px;
-}
-
-.aboutUsImage {
+.about-us-box {
     margin: auto;
-    width: 40%;
+    padding: 40px;
 }
+
+.about-us-image {
+    margin: auto;
+    width: 20%;
+}
+
 
 
 /********************************
 		Success Stories CSS
 ********************************/
 
-.successStoriesContainer {
+.success-stories-container {
     background-color: #e0e0e0;
 }
 
-.successStoriesImage {
+.success-stories-image {
     padding: 50px;
 }
+
 
 
 /***************************
 		News CSS
 ***************************/
 
-.newsContainer {
+.news-container {
     background-color: #f2f8f6;
 }
+
 
 
 /***************************
@@ -119,12 +127,21 @@ body {
 }
 
 .client-logo {
-	margin: auto;
-	width: 80%;
+    margin: auto;
+    width: 70%;
 }
 
-.clientsContainer {
+.clients-container {
     background-color: #dbdbdb
+}
+
+/***************************
+		Testimonial CSS
+***************************/
+.testimonials-box{
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 5px;
+	padding: 20px;
 }
 
 
@@ -132,11 +149,27 @@ body {
 		Contact Us CSS
 ***************************/
 
-.contactUsContainer {
+.contact-us-container {
     background-color: #f2f8f6;
+}
+
+.form-container {
+    background-color: #fdf1d7;
+    width: 40%;
+    margin: auto;
+}
+
+
+.testimonial-container{
+	padding:  60px;
+	width: 100%;
 }
 
 
 /***************************
 		Footer CSS
 ***************************/
+
+.footer {
+    background-color: #565455;
+}
