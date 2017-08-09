@@ -231,16 +231,29 @@ header {
 .footer {
     background-color: #333333;
     margin: 0;
+    text-align: center;
 }
-
 .footer-content {
+    padding: 30px;
     margin: auto;
     width: 80%;
 }
-
 .footer-text {
-    text-align: center;
-    color: #f2f8f6;
+    color: rgba(255, 255, 255, 0.25);
+}
+.footer-links > ul li{
+    display: inline;
+    margin: 10px;
+}
+.footer-links > ul li a{
+    color: white;
+}
+.footer-links > ul li a:hover,
+.footer-links > ul li a:active,
+.footer-links > ul li a:focus
+{
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
 }
 
 
