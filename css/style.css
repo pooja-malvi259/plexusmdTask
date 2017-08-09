@@ -39,34 +39,34 @@ body {
 	border-radius: 0;
 	color: #d85e3b;
 }
+
 /***********************************
 			Header CSS
 ***********************************/
 
 .header {
     background: url('../images/Landing_Hero_Image.jpg') fixed no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     height: 100%;
 }
-.navbar-header{
-    width: 20%;
-}
+
 .navigation {
     margin: 20px;
     display: inline-block;
 }
 
 .logo-image {
-    width: 50%;
+    width: 10%;
     float: left;
 }
 
 .logo-side-text>p {
     margin-left: 20px;
 }
-.header-image{
-    margin: 140px 0;
-}
+
 .header-content-box {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 20px;
@@ -82,16 +82,11 @@ body {
 	font-weight: bold;
 	color:#4d4d4d; 
 }
-.navbar .navbar-nav > li a:focus,
-.navbar .navbar-nav > li a:hover,
-.navbar .navbar-nav > li a:active{
+.navbar a:focus{
 	background-color: transparent;
 	border-bottom: 3px solid #d85e3b;
 }
-.navbar-fixed-top .navbar-collapse
-{
-    margin:  20px;
-}
+
 
 
 
@@ -117,6 +112,9 @@ body {
     margin: auto;
     width: 20%;
 }
+
+
+
 
 /********************************
 		Success Stories CSS
