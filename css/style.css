@@ -102,7 +102,7 @@ header {
 }
 
 .navbar-fixed-top .navbar-collapse {
-    margin: 20px;
+    margin: 10px;
 }
 
 
@@ -157,7 +157,10 @@ header {
 }
 
 .news-image-box {
-    box-shadow:
+    box-shadow: 1px 1px 12px rgba(0,0,0,0.5);
+    margin: 5px;
+    text-align: center;
+    width: 100px;
 }
 
 
@@ -251,5 +254,8 @@ header {
     }
     .header-content-box{
         width: 100%;
+    }
+    .news-image-box{
+        width: 80%;
     }
 }
