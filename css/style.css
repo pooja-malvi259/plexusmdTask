@@ -3,12 +3,13 @@
 @font-face {
     font-family: Helvitica, Monospace;
 }
-
-body {
+html,
+body,
+header {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
-
 .section-header-text {
     padding: 30px;
     text-align: center;
@@ -27,30 +28,37 @@ body {
 }
 
 .career-button {
-	background-color: #d85e3b;
-	border: 2px solid #d85e3b ;
-	border-radius: 0;
-	color: #f2f8f6;
+    background-color: #d85e3b;
+    border: 2px solid #d85e3b;
+    border-radius: 0;
+    color: #f2f8f6;
 }
 
-.career-button:hover{
-	background-color: transparent;
-	border: 2px solid #d85e3b ;
-	border-radius: 0;
-	color: #d85e3b;
+.career-button:hover {
+    background-color: transparent;
+    border: 2px solid #d85e3b;
+    border-radius: 0;
+    color: #d85e3b;
 }
+
+
 /***********************************
-			Header CSS
+            Header CSS
 ***********************************/
 
 .header {
     background: url('../images/Landing_Hero_Image.jpg') fixed no-repeat center;
     background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     height: 100%;
 }
-.navbar-header{
+
+.navbar-header {
     width: 20%;
 }
+
 .navigation {
     margin: 20px;
     display: inline-block;
@@ -64,9 +72,11 @@ body {
 .logo-side-text>p {
     margin-left: 20px;
 }
-.header-image{
+
+.header-image {
     margin: 140px 0;
 }
+
 .header-content-box {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 20px;
@@ -78,25 +88,28 @@ body {
     font-size: 3rem;
     font-weight: bold;
 }
-.navbar a{
-	font-weight: bold;
-	color:#4d4d4d; 
+
+.navbar a {
+    font-weight: bold;
+    color: #4d4d4d;
 }
-.navbar .navbar-nav > li a:focus,
-.navbar .navbar-nav > li a:hover,
-.navbar .navbar-nav > li a:active{
-	background-color: transparent;
-	border-bottom: 3px solid #d85e3b;
+
+.navbar .navbar-nav>li a:focus,
+.navbar .navbar-nav>li a:hover,
+.navbar .navbar-nav>li a:active {
+    background-color: transparent;
+    border-bottom: 3px solid #d85e3b;
 }
-.navbar-fixed-top .navbar-collapse
-{
-    margin:  20px;
+
+.navbar-fixed-top .navbar-collapse {
+    margin: 20px;
 }
+
 
 
 
 /*******************************
-		About Us CSS
+        About Us CSS
 ********************************/
 
 .about-us-container {
@@ -118,8 +131,9 @@ body {
     width: 20%;
 }
 
+
 /********************************
-		Success Stories CSS
+        Success Stories CSS
 ********************************/
 
 .success-stories-container {
@@ -133,8 +147,9 @@ body {
 
 
 
+
 /***************************
-		News CSS
+        News CSS
 ***************************/
 
 .news-container {
@@ -148,8 +163,9 @@ body {
 
 
 
+
 /***************************
-		Client CSS
+        Client CSS
 ***************************/
 
 .logo-filter {
@@ -171,8 +187,9 @@ body {
 }
 
 
+
 /***************************
-		Testimonial CSS
+        Testimonial CSS
 ***************************/
 
 .testimonials-box {
@@ -187,8 +204,9 @@ body {
 }
 
 
+
 /***************************
-		Contact Us CSS
+        Contact Us CSS
 ***************************/
 
 .contact-us-container {
@@ -202,8 +220,9 @@ body {
 }
 
 
+
 /***************************
-		Footer CSS
+        Footer CSS
 ***************************/
 
 .footer {
@@ -219,4 +238,18 @@ body {
 .footer-text {
     text-align: center;
     color: #f2f8f6;
+}
+
+
+/*****************************
+        Media Queries
+*****************************/
+
+@media (max-width: 768px) {
+    .header-content {
+        text-align: center;
+    }
+    .header-content-box{
+        width: 100%;
+    }
 }
