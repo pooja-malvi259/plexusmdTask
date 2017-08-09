@@ -1,0 +1,222 @@
+/** #d85e3b, #333333, #565455, #f2f8f6, #fdf1d7, #e0e0e0, #dbdbdb, #4d4d4d**/
+
+@font-face {
+    font-family: Helvitica, Monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-header-text {
+    padding: 30px;
+    text-align: center;
+}
+
+.text-border {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #d85e3b;
+    margin: 20px auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.career-button {
+	background-color: #d85e3b;
+	border: 2px solid #d85e3b ;
+	border-radius: 0;
+	color: #f2f8f6;
+}
+
+.career-button:hover{
+	background-color: transparent;
+	border: 2px solid #d85e3b ;
+	border-radius: 0;
+	color: #d85e3b;
+}
+/***********************************
+			Header CSS
+***********************************/
+
+.header {
+    background: url('../images/Landing_Hero_Image.jpg') fixed no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+.navbar-header{
+    width: 20%;
+}
+.navigation {
+    margin: 20px;
+    display: inline-block;
+}
+
+.logo-image {
+    width: 50%;
+    float: left;
+}
+
+.logo-side-text>p {
+    margin-left: 20px;
+}
+.header-image{
+    margin: 140px 0;
+}
+.header-content-box {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    width: 40%;
+}
+
+.register-now-button {
+    margin: 15px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.navbar a{
+	font-weight: bold;
+	color:#4d4d4d; 
+}
+.navbar .navbar-nav > li a:focus,
+.navbar .navbar-nav > li a:hover,
+.navbar .navbar-nav > li a:active{
+	background-color: transparent;
+	border-bottom: 3px solid #d85e3b;
+}
+.navbar-fixed-top .navbar-collapse
+{
+    margin:  20px;
+}
+
+
+
+/*******************************
+		About Us CSS
+********************************/
+
+.about-us-container {
+    background-color: #f2f8f6;
+}
+
+.about-us-icons {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.about-us-box {
+    margin: 40px;
+}
+
+.about-us-image {
+    margin: auto;
+    width: 20%;
+}
+
+/********************************
+		Success Stories CSS
+********************************/
+
+.success-stories-container {
+    background-color: #e0e0e0;
+}
+
+.success-stories-image {
+    padding: 50px;
+}
+
+
+
+
+/***************************
+		News CSS
+***************************/
+
+.news-container {
+    background-color: #f2f8f6;
+}
+
+.news-image-box {
+    box-shadow:
+}
+
+
+
+
+/***************************
+		Client CSS
+***************************/
+
+.logo-filter {
+    filter: grayscale(100%);
+}
+
+.client-logo {
+    margin: auto;
+    width: 70%;
+}
+
+.clients-container {
+    background-color: #dbdbdb
+}
+
+.client-icon-container {
+    margin: auto;
+    width: 80%;
+}
+
+
+/***************************
+		Testimonial CSS
+***************************/
+
+.testimonials-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 45px;
+    padding: 20px;
+}
+
+.testimonial-container {
+    margin: auto;
+    width: 80%;
+}
+
+
+/***************************
+		Contact Us CSS
+***************************/
+
+.contact-us-container {
+    background-color: #f2f8f6;
+}
+
+.form-container {
+    background-color: #fdf1d7;
+    width: 40%;
+    margin: auto;
+}
+
+
+/***************************
+		Footer CSS
+***************************/
+
+.footer {
+    background-color: #333333;
+    margin: 0;
+}
+
+.footer-content {
+    margin: auto;
+    width: 80%;
+}
+
+.footer-text {
+    text-align: center;
+    color: #f2f8f6;
+}
