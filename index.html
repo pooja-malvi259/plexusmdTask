@@ -10,10 +10,12 @@
     <meta name="author" content="Pooja Malvi">
     <title>Career Page</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="//cdn.muicss.com/mui-0.9.21/css/mui.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdn.muicss.com/mui-0.9.21/js/mui.min.js"></script>
     <script src="js/app.js" type="text/javascript" charset="utf-8" async defer></script>
     <script type="text/javascript"></script>
 </head>
@@ -259,35 +261,45 @@
                 <div class="text-border"></div>
             </div>
             <div class="form-container">
-                <form>
-                    <p class="h5 text-center mb-4">We'll be in touch Soon.</p>
-                    <div class="md-form">
-                        <i class="fa fa-envelope prefix grey-text"></i>
-                        <input type="text" id="defaultForm-email" class="form-control">
-                        <label for="defaultForm-email">First Name</label>
+                <form class="mui-form">
+                    <legend>We'll be in touch Soon!</legend>
+                    <div class="row">
+                        <div class="col-sm-6 mui-textfield mui-textfield--float-label">
+                            <input type="text">
+                            <label>First Name</label>
+                        </div>
+                        <div class="col-sm-6 mui-textfield mui-textfield--float-label">
+                            <input type="text">
+                            <label>Last Name</label>
+                        </div>
                     </div>
-                    <div class="md-form">
-                        <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="password" id="defaultForm-pass" class="form-control">
-                        <label for="defaultForm-pass">Last Name</label>
+                    <div class="mui-textfield mui-textfield--float-label">
+                        <input type="text">
+                        <label>Institute</label>
                     </div>
-                    <div class="md-form">
-                        <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="password" id="defaultForm-pass" class="form-control">
-                        <label for="defaultForm-pass">Email</label>
+                    <div class="mui-textfield mui-textfield--float-label">
+                        <input type="text">
+                        <label>Email</label>
                     </div>
-                    <div class="md-form">
-                        <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="password" id="defaultForm-pass" class="form-control">
-                        <label for="defaultForm-pass">Phone Number</label>
+                    <div class="mui-textfield mui-textfield--float-label">
+                        <input type="text">
+                        <label>Phone Number</label>
                     </div>
-                    <div class="md-form">
-                        <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="password" id="defaultForm-pass" class="form-control">
-                        <label for="defaultForm-pass">Your Role</label>
+                    <div class="mui-select">
+                        <select>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>London</option>
+                            <option>Germany</option>
+                        </select>
+                        <label>Country</label>
+                    </div>
+                    <div class="mui-textfield mui-textfield--float-label">
+                        <input type="text">
+                        <label>Your Role</label>
                     </div>
                     <div class="text-center">
-                        <button class="btn btn-default">Contact</button>
+                        <button class="btn btn-default career-button">Contact</button>
                     </div>
                 </form>
             </div>
