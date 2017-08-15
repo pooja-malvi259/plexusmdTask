@@ -1,9 +1,12 @@
 /** #d85e3b, #333333, #565455, #f2f8f6, #fdf1d7, #e0e0e0, #dbdbdb, #4d4d4d**/
 
+
 /* Font Family- Helvetica*/
+
 @font-face {
     font-family: Helvitica, Monospace;
 }
+
 html,
 body,
 header {
@@ -11,11 +14,13 @@ header {
     margin: 0;
     padding: 0;
 }
+
 .section-header-text {
     padding: 30px;
     text-align: center;
 }
-.header-text-bold{
+
+.header-text-bold {
     font-size: 32px;
 }
 
@@ -45,6 +50,13 @@ header {
     color: #d85e3b;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
+
+
+
 
 /***********************************
             Header CSS
@@ -58,6 +70,7 @@ header {
     width: 100%;
     height: 100%;
 }
+
 .navbar-header {
     width: 20%;
 }
@@ -87,11 +100,13 @@ header {
     max-width: 473px;
     text-align: left;
 }
-.header-text{
+
+.header-text {
     font-size: 36px;
     font-weight: bold;
 }
-.header-subtext{
+
+.header-subtext {
     font-size: 24px;
 }
 
@@ -102,15 +117,18 @@ header {
     background-color: #d85e3b;
     border: 2px solid #d85e3b;
     border-radius: 0;
-    color: #f2f8f6; 
+    color: #f2f8f6;
 }
+
 .navbar a {
     font-weight: bold;
     color: #4d4d4d;
 }
-.navbar .navbar-nav>li a:hover{
+
+.navbar .navbar-nav>li a:hover {
     background-color: transparent;
 }
+
 .navbar .navbar-nav>li a:focus,
 .navbar .navbar-nav>li a:active {
     background-color: transparent;
@@ -120,12 +138,17 @@ header {
 .navbar-fixed-top .navbar-collapse {
     margin: 10px;
 }
-a.navbar-brand{
+
+a.navbar-brand {
     font-weight: normal;
 }
-.active-section{
+
+.active-section {
     border-bottom: 3px solid #d85e3b;
 }
+
+
+
 /*******************************
         About Us CSS
 ********************************/
@@ -144,21 +167,23 @@ a.navbar-brand{
 .about-us-box {
     border-right: 2px solid #e0e0e0;
 }
-.about-us-box:nth-child(3){
+
+.about-us-box:nth-child(3) {
     border: none;
 }
+
 .about-us-image {
     margin: auto;
     width: 20%;
 }
-.about-us-text{
+
+.about-us-text {
     color: #d85e3b;
     font-size: 24px;
     font-weight: bold;
 }
-.text-number{
-    font-weight: bold;
-}
+
+
 
 /********************************
         Success Stories CSS
@@ -176,6 +201,8 @@ a.navbar-brand{
 
 
 
+
+
 /***************************
         News CSS
 ***************************/
@@ -183,38 +210,47 @@ a.navbar-brand{
 .news-container {
     background-color: #f2f8f6;
 }
-.news-content{
+
+.news-content {
     margin: auto;
 }
-.news-content .col-sm-1{
-    margin:  20% 0;
+
+.news-content .col-sm-1 {
+    margin: 20% 0;
     width: 5%;
     text-align: center;
 }
+
 .news-image-box {
-    box-shadow:0 0 10px #aaacaf;
+    box-shadow: 0 0 10px #aaacaf;
     background-color: #ffffff;
     margin: 10px;
     padding: 0;
-    max-width: 220px ;
-    min-height: 325px; 
+    max-width: 220px;
+    min-height: 325px;
 }
-.news-image-content{
+
+.news-image-content {
     text-align: left;
     padding: 10px;
 }
-a.news-content-title{
+
+a.news-content-title {
     color: #d85e3b;
     font-weight: bold;
 }
-a.read-more{
-    color: #d85e3b; 
+
+a.read-more {
+    color: #d85e3b;
 }
-.news-image-title{
-    margin:  auto;
+
+.news-image-title {
+    margin: auto;
     width: 50%;
     height: 50px;
 }
+
+
 
 
 
@@ -225,12 +261,14 @@ a.read-more{
 .logo-filter {
     filter: grayscale(100%);
 }
-.logo-box{
+
+.logo-box {
     position: absolute;
     margin: auto;
     width: 300px;
-    height:  300px;
+    height: 300px;
 }
+
 .client-logo {
     margin: auto;
     width: 60%;
@@ -248,6 +286,8 @@ a.read-more{
 
 
 
+
+
 /***************************
         Testimonial CSS
 ***************************/
@@ -257,6 +297,12 @@ a.read-more{
     opacity: 0.8;
     margin: 45px;
     padding: 20px;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 90%;
+    margin: auto;
 }
 
 .testimonial-container {
@@ -264,7 +310,32 @@ a.read-more{
     width: 80%;
 }
 
+.testimonial-name .bold-text {
+    margin: 0;
+}
 
+.testimonials-box .fa {
+    font-size: 3.5rem;
+}
+
+.fa-quote-left {
+    transform: translate(-50%, -100%);
+}
+
+.fa-quote-right {
+    text-align: right;
+    bottom: -50px;
+    right: -50px;
+}
+
+.name-border {
+    background-color: #000;
+    width: 100px;
+    height: 2.5px;
+    margin:  auto;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
 
 /***************************
         Contact Us CSS
@@ -281,53 +352,67 @@ a.read-more{
     padding: 50px;
     width: 40%;
 }
-.form-container legend{
+
+.form-container legend {
     text-align: center;
 }
-.career-button-contact{
+
+.career-button-contact {
     background-color: #d85e3b;
     border: 2px solid #d85e3b;
     color: #f2f8f6;
 }
-.career-button-contact:hover{
+
+.career-button-contact:hover {
     background-color: transparent;
     border: 2px solid #d85e3b;
     color: #d85e3b;
 }
+
+
+
 /***************************
         Footer CSS
 ***************************/
-.social-media-links > .fa-stack{
+
+.social-media-links>.fa-stack {
     margin-left: 10px;
 }
+
 .footer {
     background-color: #333333;
     margin: 0;
     text-align: center;
 }
+
 .footer-content {
     padding: 30px;
     margin: auto;
     width: 80%;
 }
+
 .footer-text {
     color: #fff;
     opacity: 0.70;
 }
-.footer-links > ul li{
+
+.footer-links>ul li {
     display: inline;
     margin: 10px;
 }
-.footer-links > ul li a{
+
+.footer-links>ul li a {
     color: white;
 }
-.footer-links > ul li a:hover,
-.footer-links > ul li a:active,
-.footer-links > ul li a:focus
-{
+
+.footer-links>ul li a:hover,
+.footer-links>ul li a:active,
+.footer-links>ul li a:focus {
     text-decoration: none;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
+
+
 
 
 /*****************************
@@ -335,28 +420,24 @@ a.read-more{
 *****************************/
 
 @media (max-width: 768px) {
-
-
-
-/* Contact Us Form*/
-    .form-container{
+    /* Contact Us Form*/
+    .form-container {
         width: 60%;
     }
-/*Contact Us Form Ends*/
-    .footer-links > ul{
+    /*Contact Us Form Ends*/
+    .footer-links>ul {
         padding: 0;
     }
 }
 
 @media (max-width: 384px) {
-/*About Us*/
-.about-us-box{
-    border: none;
-    margin-bottom: 30px;
-}
-
-/* Contact Us Form*/
-    .form-container{
+    /*About Us*/
+    .about-us-box {
+        border: none;
+        margin-bottom: 30px;
+    }
+    /* Contact Us Form*/
+    .form-container {
         width: 90%;
     }
 }
