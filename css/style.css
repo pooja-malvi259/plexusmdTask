@@ -128,6 +128,7 @@ a.navbar-brand{
 
 .about-us-container {
     background-color: #f2f8f6;
+    padding: 20px;
 }
 
 .about-us-icons {
@@ -137,14 +138,23 @@ a.navbar-brand{
 }
 
 .about-us-box {
-    margin: 40px;
+    border-right: 2px solid #e0e0e0;
 }
-
+.about-us-box:nth-child(3){
+    border: none;
+}
 .about-us-image {
     margin: auto;
     width: 20%;
 }
-
+.about-us-text{
+    color: #d85e3b;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-number{
+    font-weight: bold;
+}
 
 /********************************
         Success Stories CSS
@@ -312,15 +322,14 @@ a.navbar-brand{
 }
 
 @media (max-width: 384px) {
-
-
+/*About Us*/
+.about-us-box{
+    border: none;
+    margin-bottom: 30px;
+}
 
 /* Contact Us Form*/
     .form-container{
         width: 90%;
-    }
-/*Contact Us Form Ends*/
-    .footer-links > ul{
-        padding: 0;
     }
 }
