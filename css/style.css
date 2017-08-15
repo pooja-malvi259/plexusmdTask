@@ -63,7 +63,8 @@ header {
 ***********************************/
 
 .header {
-    background: url('../images/Landing_Hero_Image.jpg') no-repeat center;
+    background: url('../images/Landing_Hero_Image.jpg') no-repeat bottom center scroll;
+    display: table;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -236,6 +237,7 @@ a.navbar-brand {
 }
 
 a.news-content-title {
+
     color: #d85e3b;
     font-weight: bold;
 }
@@ -245,6 +247,10 @@ a.read-more {
 }
 
 .news-image-title {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    align-items: center;
     margin: auto;
     width: 50%;
     height: 50px;
@@ -260,6 +266,7 @@ a.read-more {
 
 .logo-filter {
     filter: grayscale(100%);
+    margin-bottom: 20px;
 }
 
 .logo-box {
@@ -271,7 +278,14 @@ a.read-more {
 
 .client-logo {
     margin: auto;
-    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    max-width: 100%;
+    /*width: 60%;*/
 }
 
 .clients-container {
@@ -283,7 +297,11 @@ a.read-more {
     width: 80%;
 }
 
-
+.image-parent{
+    position: relative;
+    width: 80%;
+    height: 150px;
+}
 
 
 
@@ -304,7 +322,9 @@ a.read-more {
     width: 90%;
     margin: auto;
 }
-
+.testimonial-image img{
+    margin:  0 auto;
+}
 .testimonial-container {
     margin: auto;
     width: 80%;
