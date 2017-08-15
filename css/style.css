@@ -51,7 +51,7 @@ header {
 ***********************************/
 
 .header {
-    background: url('../images/Landing_Hero_Image.jpg') fixed no-repeat center;
+    background: url('../images/Landing_Hero_Image.jpg') no-repeat center;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -108,9 +108,10 @@ header {
     font-weight: bold;
     color: #4d4d4d;
 }
-
+.navbar .navbar-nav>li a:hover{
+    background-color: transparent;
+}
 .navbar .navbar-nav>li a:focus,
-.navbar .navbar-nav>li a:hover,
 .navbar .navbar-nav>li a:active {
     background-color: transparent;
     border-bottom: 3px solid #d85e3b;
@@ -121,6 +122,9 @@ header {
 }
 a.navbar-brand{
     font-weight: normal;
+}
+.active-section{
+    border-bottom: 3px solid #d85e3b;
 }
 /*******************************
         About Us CSS
@@ -179,15 +183,38 @@ a.navbar-brand{
 .news-container {
     background-color: #f2f8f6;
 }
-
-.news-image-box {
-    box-shadow: 1px 1px 12px rgba(0,0,0,0.5);
-    margin: 5px;
-    text-align: center;
-    width: 100px;
+.news-content{
+    margin: auto;
 }
-
-
+.news-content .col-sm-1{
+    margin:  20% 0;
+    width: 5%;
+    text-align: center;
+}
+.news-image-box {
+    box-shadow:0 0 10px #aaacaf;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 0;
+    max-width: 220px ;
+    min-height: 325px; 
+}
+.news-image-content{
+    text-align: left;
+    padding: 10px;
+}
+a.news-content-title{
+    color: #d85e3b;
+    font-weight: bold;
+}
+a.read-more{
+    color: #d85e3b; 
+}
+.news-image-title{
+    margin:  auto;
+    width: 50%;
+    height: 50px;
+}
 
 
 

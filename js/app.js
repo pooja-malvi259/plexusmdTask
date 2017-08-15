@@ -1,5 +1,5 @@
 /*Scroll Js*/
-$(document).ready(function(){
+$(document).ready(function(e){
     $(window).on("scroll",function(){
     var win = $(window).scrollTop();
     if(win > 50){
@@ -8,5 +8,39 @@ $(document).ready(function(){
     else{
         $(".navbar").css("background","rgba(0,0,0,0)");
     }
+
+    var sec = $("#news").offset().top - 50;
+    if(win > 0 && win > sec){
+        $("#news-link").addClass("active-section");
+    }
+    else{
+        $("#news-link").removeClass("active-section");
+    }
+    /*
+    id = ;
+    var sec = $(id).offset().top - 50;
+    if(win > 0 && win > sec){
+        $(id+"-link").addClass("active-section");
+    }
+    else{
+        $(id+"-link").removeClass("active-section");
+    }*/
   });
 });
+
+
+/*Menu Scroll*/
+
+$("nav").find("a").click(function(e) {
+    e.preventDefault();
+    var section = $(this).attr("href");
+    $("html, body").animate({
+        scrollTop: $(section).offset().top - 50
+    });
+});
+
+function goTo(x){
+    $("html,body").animate({
+        scrollTop: $(x).offset().top - 50
+    });
+}

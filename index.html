@@ -24,7 +24,7 @@
     <div>
         <!--Header Section-->
         <div class="header">
-            <div class="navigation">
+            <div class="navigation" id="home">
                 <div>
                     <nav class="navbar navbar-fixed-top">
                         <div class="container-fluid">
@@ -40,15 +40,15 @@
                         <div id="navbar" class="navbar-collapse collapse">
                             <div class="navbar-header">
                                 <img src="images/plexusmd-logo.png" class="logo-image" alt="PlexusMD Logo">
-                                <a class="navbar-brand" href="#">Career</a>
+                                <a class="navbar-brand" href="#" onclick="goTo('#home')">Career</a>
                             </div>
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">Why Us?</a></li>
-                                <li><a href="#">Success Stories</a></li>
-                                <li><a href="#">In the News</a></li>
-                                <li><a href="#">Client</a></li>
-                                <button class="btn btn-danger navbar-btn career-button">Contact Us</button>
+                                <li class="active"><a href="#home" id="home-link">Home</a></li>
+                                <li><a href="#about-us" id="about-us-link">Why Us?</a></li>
+                                <li><a href="#success-stories" id="success-stories-link">Success Stories</a></li>
+                                <li><a href="#news" id="news-link">In the News</a></li>
+                                <li><a href="#client" id="client-link">Client</a></li>
+                                <button class="btn btn-danger navbar-btn career-button" onclick="goTo('#contact')">Contact Us</button>
                                 <button class="btn btn-danger navbar-btn career-button">Find Jobs</button>
                             </ul>
                         </div>
@@ -63,14 +63,14 @@
                         <p class="header-subtext">1 of 6 doctors in India are searching for their new career move in PlexusMD</>
                     </div>
                     <div class="register-now-button">
-                        <button type="button" class="btn btn-primary career-button">Register Now</button>
+                        <button type="button" class="btn btn-primary career-button" onclick="goTo('#contact')">Register Now</button>
                     </div>
                 </div>
             </div>
         </div>
         <!--End of Header Section-->
         <!--About Us Section-->
-        <div class="about-us-container" id="scroll-start">
+        <div class="about-us-container" id="about-us">
             <div class="section-header-text">
                 <p class="header-text-bold">The PlexusMD Advantage</p>
                 <div class="text-border"></div>
@@ -103,7 +103,7 @@
         </div>
         <!--End of About Us Section-->
         <!--Success Stories Section-->
-        <div class="success-stories-container">
+        <div class="success-stories-container" id="success-stories">
             <div class="section-header-text">
                 <p class="header-text-bold">Success Stories</p>
                 <div class="text-border"></div>
@@ -114,62 +114,73 @@
         </div>
         <!--End of Success Stories Section-->
         <!-- News Section -->
-        <div class="newsContainer">
+        <div class="news-container" id="news">
             <div class="section-header-text">
                 <p class="header-text-bold">In the News</p>
                 <div class="text-border"></div>
             </div>
-            <div class="row">
+            <div class="row news-content">
+                <div class="col-sm-1">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </div>
                 <div class="col-sm-5 news-image-box">
                     <div class="news-image-title">
-                        <p>Title 1</p>
+                        <img src="images/In_the_News_Logo/newslogo1.png" class="img-responsive" alt="News Logo 1">
                     </div>
-                    <img src="" class="img-responsive" alt="News Image">
+                    <img src="images/In_the_News_Hero/hero1.png"" class="img-responsive" alt="News Image">
                     <div class="news-image-content">
-                        <p>Content</p>
+                        <p><a href="#" class="news-content-title">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                        <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA.  Ever since this...<a href="#" class="read-more">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-sm-5 news-image-box">
                     <div class="news-image-title">
-                        <p>Title 1</p>
+                        <img src="images/In_the_News_Logo/newslogo2.jpg" class="img-responsive" alt="News Logo 1">
                     </div>
-                    <img src="" class="img-responsive" alt="News Image">
+                    <img src="images/In_the_News_Hero/hero2.png"" class="img-responsive" alt="News Image">
                     <div class="news-image-content">
-                        <p>Content</p>
+                        <p><a href="#" class="news-content-title">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                        <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA.  Ever since this...<a href="#" class="read-more">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-sm-5 news-image-box">
                     <div class="news-image-title">
-                        <p>Title 1</p>
+                        <img src="images/In_the_News_Logo/newslogo3.png" class="img-responsive" alt="News Logo 1">
                     </div>
-                    <img src="" class="img-responsive" alt="News Image">
+                    <img src="images/In_the_News_Hero/hero3.png"" class="img-responsive" alt="News Image">
                     <div class="news-image-content">
-                        <p>Content</p>
+                        <p><a href="#" class="news-content-title">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                        <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA.  Ever since this...<a href="#" class="read-more">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-sm-5 news-image-box">
                     <div class="news-image-title">
-                        <p>Title 1</p>
+                        <img src="images/In_the_News_Logo/newslogo4.png" class="img-responsive" alt="News Logo 1">
                     </div>
-                    <img src="" class="img-responsive" alt="News Image">
+                    <img src="images/In_the_News_Hero/hero4.png"" class="img-responsive" alt="News Image">
                     <div class="news-image-content">
-                        <p>Content</p>
+                        <p><a href="#" class="news-content-title">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                        <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA.  Ever since this...<a href="#" class="read-more">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-sm-5 news-image-box">
                     <div class="news-image-title">
-                        <p>Title 1</p>
+                        <img src="images/In_the_News_Logo/newslogo5.png" class="img-responsive" alt="News Logo 1">
                     </div>
-                    <img src="" class="img-responsive" alt="News Image">
+                    <img src="images/In_the_News_Hero/hero5.jpg"" class="img-responsive" alt="News Image">
                     <div class="news-image-content">
-                        <p>Content</p>
+                        <p><a href="#" class="news-content-title">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                        <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA.  Ever since this...<a href="#" class="read-more">Read More</a></p>
                     </div>
+                </div>
+                <div class="col-sm-1">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
         <!--End of News Section -->
         <!--Clients Section -->
-        <div class="clients-container">
+        <div class="clients-container" id="client">
             <div class="section-header-text">
                 <p class="header-text-bold">Clients</p>
                 <div class="text-border"></div>
@@ -255,7 +266,7 @@
         </div>
         <!--End of Clients Section-->
         <!-- Contact Us Section-->
-        <div class="contact-us-container">
+        <div class="contact-us-container" id="contact">
             <div class="section-header-text">
                 <p class="header-text-bold">Contact Us</p>
                 <div class="text-border"></div>
