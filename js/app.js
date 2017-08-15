@@ -1,9 +1,9 @@
-var some = $('#scroll-start').offset().top;
+/*Scroll Js*/
 $(document).ready(function(){
     $(window).on("scroll",function(){
     var win = $(window).scrollTop();
-    if(win > some){
-        $(".navbar").css("background","rgba(255,255,255,1)");
+    if(win > 50){
+        $(".navbar").css("background","hsla(0, 0%, 100%, 0.95)");
     }
     else{
         $(".navbar").css("background","rgba(0,0,0,0)");
