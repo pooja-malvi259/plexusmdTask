@@ -329,7 +329,10 @@ a.read-more {
     height: 150px;
 }
 
-
+.view-more{
+    color: #d85e3b;
+    display: none;
+}
 
 
 
@@ -495,6 +498,9 @@ a.read-more {
         margin-top: 0;
         padding: 3px;
     }
+    .testimonials-box{
+        margin: 25px;
+    }
 
     /* Contact Us Form*/
     .form-container {
@@ -504,6 +510,9 @@ a.read-more {
     /*Contact Us Form Ends*/
     .footer-links>ul {
         padding: 0;
+    }
+    .view-more{
+        display: inline;
     }
 }
 
