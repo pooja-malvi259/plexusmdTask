@@ -50,15 +50,18 @@ header {
     border: 2px solid #d85e3b;
     color: #d85e3b;
 }
-.jobs-button{
+
+.jobs-button {
     background-color: transparent;
     border: 2px solid #d85e3b;
     color: #d85e3b;
     border-radius: 0;
 }
+
 .bold-text {
     font-weight: bold;
 }
+
 
 
 
@@ -80,6 +83,9 @@ header {
 
 .navbar-header {
     width: 20%;
+}
+.container-fluid .navbar-header{
+    display: none;
 }
 
 .navigation {
@@ -150,23 +156,27 @@ header {
 a.navbar-brand {
     font-weight: normal;
 }
-.nav-tabs{
+
+.nav-tabs {
     border-bottom: none;
 }
-.nav-tabs > li a:hover,
-.nav-tabs > li a:focus,
-.nav-tabs > li.active a,
-.nav-tabs > li.active > a:hover{
+
+.nav-tabs>li a:hover,
+.nav-tabs>li a:focus,
+.nav-tabs>li.active a,
+.nav-tabs>li.active>a:hover {
     border: none;
 }
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:focus{
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus {
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 3px solid #d85e3b;
     background-color: transparent;
 }
+
 
 
 /*******************************
@@ -205,6 +215,7 @@ a.navbar-brand {
 
 
 
+
 /********************************
         Success Stories CSS
 ********************************/
@@ -216,6 +227,8 @@ a.navbar-brand {
 .success-stories-image {
     padding: 50px;
 }
+
+
 /***************************
         News CSS
 ***************************/
@@ -272,6 +285,7 @@ a.read-more {
 
 
 
+
 /***************************
         Client CSS
 ***************************/
@@ -309,11 +323,12 @@ a.read-more {
     width: 80%;
 }
 
-.image-parent{
+.image-parent {
     position: relative;
     width: 80%;
     height: 150px;
 }
+
 
 
 
@@ -336,7 +351,8 @@ a.read-more {
     height: 100px;
     margin-top: -50px;
 }
-.testimonial-image img{
+
+.testimonial-image img {
     position: absolute;
     top: 0;
     left: 0;
@@ -344,8 +360,9 @@ a.read-more {
     bottom: 0;
     max-height: 100%;
     max-width: 100%;
-    margin:  auto;
+    margin: auto;
 }
+
 .testimonial-container {
     margin: auto;
     width: 80%;
@@ -373,10 +390,11 @@ a.read-more {
     background-color: #000;
     width: 100px;
     height: 2.5px;
-    margin:  auto;
+    margin: auto;
     margin-top: -5px;
     margin-bottom: 10px;
 }
+
 
 /***************************
         Contact Us CSS
@@ -409,6 +427,7 @@ a.read-more {
     border: 2px solid #d85e3b;
     color: #d85e3b;
 }
+
 
 
 
@@ -456,22 +475,23 @@ a.read-more {
 
 
 
+
 /*****************************
         Media Queries
 *****************************/
 
 @media (max-width: 768px) {
     /*Navigation*/
-    .navbar-brand{
+    .navbar-brand {
         padding: 0 7px;
     }
-    .nav > li > a {
+    .nav>li>a {
         padding: 0px 5px
     }
-    .navbar-fixed-top{
+    .navbar-fixed-top {
         padding: 10px;
     }
-    .navbar-btn{
+    .navbar-btn {
         margin-top: 0;
         padding: 3px;
     }
@@ -488,11 +508,46 @@ a.read-more {
 }
 
 @media (max-width: 384px) {
+    /*Navigation*/
+    .header-content-box{
+        max-width: 220px;
+    }
+    .navbar {
+        max-height: 80px;
+    }
+    a.navbar-brand {
+        margin-top: 5px;
+    }
+    .container-fluid .navbar-header {
+        display: inline;
+    }
+    .logo-image {
+        width: 30%;
+    }
+    button.navbar-toggle.collapsed {
+        margin-top: 0;
+        background-color: #d85e3b;
+    }
+    .navbar-collapse .navbar-header {
+        display: none;
+    }
+    .success-stories-image {
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .header-text{
+        font-size: 2.5rem;
+    }
+    .header-subtext{
+        font-size: 1.75rem;
+    }
+
     /*About Us*/
     .about-us-box {
         border: none;
         margin-bottom: 30px;
     }
+
     /* Contact Us Form*/
     .form-container {
         width: 90%;
