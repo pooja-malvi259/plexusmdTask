@@ -50,7 +50,12 @@ header {
     border: 2px solid #d85e3b;
     color: #d85e3b;
 }
-
+.jobs-button{
+    background-color: transparent;
+    border: 2px solid #d85e3b;
+    color: #d85e3b;
+    border-radius: 0;
+}
 .bold-text {
     font-weight: bold;
 }
@@ -139,6 +144,7 @@ header {
 
 .navbar-fixed-top .navbar-collapse {
     margin: 10px;
+    margin-bottom: 0;
 }
 
 a.navbar-brand {
@@ -210,13 +216,6 @@ a.navbar-brand {
 .success-stories-image {
     padding: 50px;
 }
-
-
-
-
-
-
-
 /***************************
         News CSS
 ***************************/
@@ -462,10 +461,26 @@ a.read-more {
 *****************************/
 
 @media (max-width: 768px) {
+    /*Navigation*/
+    .navbar-brand{
+        padding: 0 7px;
+    }
+    .nav > li > a {
+        padding: 0px 5px
+    }
+    .navbar-fixed-top{
+        padding: 10px;
+    }
+    .navbar-btn{
+        margin-top: 0;
+        padding: 3px;
+    }
+
     /* Contact Us Form*/
     .form-container {
         width: 60%;
     }
+
     /*Contact Us Form Ends*/
     .footer-links>ul {
         padding: 0;
