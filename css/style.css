@@ -13,6 +13,7 @@ header {
     height: 100%;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .section-header-text {
@@ -143,11 +144,23 @@ header {
 a.navbar-brand {
     font-weight: normal;
 }
-
-.active-section {
-    border-bottom: 3px solid #d85e3b;
+.nav-tabs{
+    border-bottom: none;
 }
-
+.nav-tabs > li a:hover,
+.nav-tabs > li a:focus,
+.nav-tabs > li.active a,
+.nav-tabs > li.active > a:hover{
+    border: none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #d85e3b;
+    background-color: transparent;
+}
 
 
 /*******************************

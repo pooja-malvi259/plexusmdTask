@@ -20,12 +20,12 @@
     <script type="text/javascript"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-example" data-offset="60">
     <div>
         <!--Header Section-->
         <div class="header">
             <div class="navigation" id="home">
-                <div>
+                <div id="navbar-example">
                     <nav class="navbar navbar-fixed-top">
                         <div class="container-fluid">
                             <div class="navbar-header">
@@ -42,7 +42,7 @@
                                 <img src="images/plexusmd-logo.png" class="logo-image" alt="PlexusMD Logo">
                                 <a class="navbar-brand" href="#" onclick="goTo('#home')">Career</a>
                             </div>
-                            <ul class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav navbar-right nav-tabs" role="tablist">
                                 <li class="active"><a href="#home" id="home-link">Home</a></li>
                                 <li><a href="#about-us" id="about-us-link">Why Us?</a></li>
                                 <li><a href="#success-stories" id="success-stories-link">Success Stories</a></li>

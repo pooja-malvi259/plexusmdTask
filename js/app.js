@@ -1,4 +1,4 @@
-/*Scroll Js*/
+/*Navigation Scroll Js*/
 $(document).ready(function(e){
     $(window).on("scroll",function(){
     var win = $(window).scrollTop();
@@ -8,29 +8,13 @@ $(document).ready(function(e){
     else{
         $(".navbar").css("background","rgba(0,0,0,0)");
     }
-    /*Changing link border on scroll using section-wise IDs.
-    var sec = $("#news").offset().top - 50;
-    if(win > 0 && win > sec){
-        $("#news-link").addClass("active-section");
-    }
-    else{
-        $("#news-link").removeClass("active-section");
-    }*/
-
-    /* Changing link border on scroll for each section using universal ID
-    id = ;
-    var sec = $(id).offset().top - 50;
-    if(win > 0 && win > sec){
-        $(id+"-link").addClass("active-section");
-    }
-    else{
-        $(id+"-link").removeClass("active-section");
-    }*/
   });
 });
-
-
-/*Menu Scroll*/
+/*Body Scroll */
+$('body').scrollspy({
+    target: '#navbar-example',
+    offset: 60
+})
 
 $("nav").find("a").click(function(e) {
     e.preventDefault();
