@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PlexusMD Careers Page">
+    <meta name="keywords" content="Career, Jobs, Fellowship, Internships">
+    <meta name="author" content="Pooja Malvi">
+    <title>Career Page</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="//cdn.muicss.com/mui-0.9.21/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="//cdn.muicss.com/mui-0.9.21/js/mui.min.js"></script>
+    <script src="js/app.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script type="text/javascript"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example" data-offset="60">
+    <div>
+        <!--Header Section-->
+        <div class="header">
+            <div class="navigation" id="home">
+                <div id="navbar-example">
+                    <nav class="navbar navbar-fixed-top">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <img src="images/plexusmd-logo.png" class="logo-image" alt="PlexusMD Logo">
+                                <a class="navbar-brand" href="#" onclick="goTo('#navbar-example')">Career</a>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <div class="navbar-header">
+                                <img src="images/plexusmd-logo.png" class="logo-image" alt="PlexusMD Logo">
+                                <a class="navbar-brand" href="#" onclick="goTo('#navbar-example')">Career</a>
+                            </div>
+                            <ul class="nav navbar-nav navbar-right nav-tabs" role="tablist">
+                                <li class="active"><a href="#home" id="home-link">Home</a></li>
+                                <li><a href="#about-us" id="about-us-link">Why Us?</a></li>
+                                <li><a href="#success-stories" id="success-stories-link">Success Stories</a></li>
+                                <li><a href="#news" id="news-link">In the News</a></li>
+                                <li><a href="#client" id="client-link">Client</a></li>
+                                <button class="btn btn-danger navbar-btn career-button" onclick="goTo('#contact')">Contact Us</button>
+                                <button class="btn btn-danger navbar-btn jobs-button">Find Jobs</button>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-content">
+                <div class="header-image">
+                    <div class="header-content-box">
+                        <p class="header-text">The easiest way to recruit doctors</p>
+                        <p class="header-subtext">1 of 6 doctors in India are searching for their new career move in PlexusMD
+                            </>
+                    </div>
+                    <div class="register-now-button">
+                        <button type="button" class="btn btn-primary career-button" onclick="goTo('#contact')">Register Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Header Section-->
+        <!--About Us Section-->
+        <div class="about-us-container" id="about-us">
+            <div class="section-header-text">
+                <p class="header-text-bold">The PlexusMD Advantage</p>
+                <div class="text-border"></div>
+            </div>
+            <div class="about-us-icons">
+                <div class="row">
+                    <div class="col-sm-4 about-us-box">
+                        <img src="images/Icon_PMD_Advantage/3.png" class="img-responsive about-us-image" alt="Career Reach">
+                        <div class="about-us-image-text">
+                            <h4 class="about-us-text">Reach</h4>
+                            <p><span class="bold-text">65,000</span> doctors across India use PlexusMD to discover opportunities.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 about-us-box">
+                        <img src="images/Icon_PMD_Advantage/1.png" class="img-responsive about-us-image" alt="Career Choice">
+                        <div class="about-us-image-text">
+                            <h4 class="about-us-text">Choice</h4>
+                            <p>Hire across <span class="bold-text">150+</span> specialities , right from Resident Doctors to Consultant to even HODs</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 about-us-box">
+                        <img src="images/Icon_PMD_Advantage/2.png" class="img-responsive about-us-image" alt="Career Quality">
+                        <div class="about-us-image-text">
+                            <h4 class="about-us-text">Quality</h4>
+                            <p><span class="bold-text">8</span> to <span class="bold-text">10</span> doctors we referred are shortlisted for an interview.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of About Us Section-->
+        <!--Success Stories Section-->
+        <div class="success-stories-container" id="success-stories">
+            <div class="section-header-text">
+                <p class="header-text-bold">Success Stories</p>
+                <div class="text-border"></div>
+            </div>
+            <div class="success-stories-image">
+                <img src="images/Success_Stories.png" class="img-responsive" alt="Success Stories Image">
+            </div>
+        </div>
+        <!--End of Success Stories Section-->
+        <!-- News Section -->
+        <div class="news-container" id="news">
+            <div class="section-header-text">
+                <p class="header-text-bold">In the News</p>
+                <div class="text-border"></div>
+            </div>
+            <div class="row news-content carousel-wrapper">
+                <div class="carousel">
+                    <div class="col-sm-1">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-5 news-image-box">
+                        <div class="news-image-title">
+                            <img src="images/In_the_News_Logo/newslogo1.png" class="img-responsive" alt="News Logo 1">
+                        </div>
+                        <img src="images/In_the_News_Hero/hero1.png" " class="img-responsive " alt="News Image ">
+                        <div class="news-image-content ">
+                            <p><a href="# " class="news-content-title ">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                            <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA.  Ever since this...<a href="# " class="read-more ">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 news-image-box ">
+                        <div class="news-image-title ">
+                            <img src="images/In_the_News_Logo/newslogo2.jpg " class="img-responsive " alt="News Logo 1 ">
+                        </div>
+                        <img src="images/In_the_News_Hero/hero2.png "" class="img-responsive" alt="News Image">
+                        <div class="news-image-content">
+                            <p><a href="#" class="news-content-title">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                            <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA. Ever since this...<a href="#" class="read-more">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 news-image-box">
+                        <div class="news-image-title">
+                            <img src="images/In_the_News_Logo/newslogo3.png" class="img-responsive" alt="News Logo 1">
+                        </div>
+                        <img src="images/In_the_News_Hero/hero3.png" " class="img-responsive " alt="News Image ">
+                        <div class="news-image-content ">
+                            <p><a href="# " class="news-content-title ">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                            <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA.  Ever since this...<a href="# " class="read-more ">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 news-image-box ">
+                        <div class="news-image-title ">
+                            <img src="images/In_the_News_Logo/newslogo4.png " class="img-responsive " alt="News Logo 1 ">
+                        </div>
+                        <img src="images/In_the_News_Hero/hero4.png "" class="img-responsive" alt="News Image">
+                        <div class="news-image-content">
+                            <p><a href="#" class="news-content-title">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                            <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA. Ever since this...<a href="#" class="read-more">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 news-image-box">
+                        <div class="news-image-title">
+                            <img src="images/In_the_News_Logo/newslogo5.png" class="img-responsive" alt="News Logo 1">
+                        </div>
+                        <img src="images/In_the_News_Hero/hero5.jpg" " class="img-responsive " alt="News Image ">
+                        <div class="news-image-content ">
+                            <p><a href="# " class="news-content-title ">Doctor turns entrepreneur after IIM-A stint, starts up a Naukri.com for doctors: PlexusMD</a></p>
+                            <p>2008 was a pivotal year for Ahmedabad-based Rohan Desai. It was the year when Rohan completed his MBBS and became a doctor but also got through to IIM-Ahmedabad for a MBA.  Ever since this...<a href="# " class="read-more ">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-1 ">
+                        <i class="fa fa-chevron-right " aria-hidden="true "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of News Section -->
+        <!--Clients Section -->
+        <div class="clients-container " id="client">
+            <div class="section-header-text ">
+                <p class="header-text-bold ">Clients</p>
+                <div class="text-border "></div>
+            </div>
+            <div class="client-icon-container ">
+                <div class="row logo-filter ">
+                    <div class="col-sm-2 col-xs-6 ">
+                        <div class="image-parent ">
+                            <img src="images/clientlogos/logo1.png " class="img-responsive client-logo " alt="Logo 1 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent ">                        
+                            <img src="images/clientlogos/logo2.png " class="img-responsive client-logo " alt="Logo 2 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent ">                        
+                            <img src="images/clientlogos/logo3.png " class="img-responsive client-logo " alt="Logo 3 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent ">                        
+                            <img src="images/clientlogos/logo4.png " class="img-responsive client-logo " alt="Logo 4 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent ">                        
+                            <img src="images/clientlogos/logo5.png " class="img-responsive client-logo " alt="Logo 5 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent ">                        
+                            <img src="images/clientlogos/logo6.png " class="img-responsive client-logo " alt="Logo 6 ">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row logo-filter ">
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent "> 
+                            <img src="images/clientlogos/logo12.png " class="img-responsive client-logo " alt="Logo 7 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent "> 
+                            <img src="images/clientlogos/logo8.png " class="img-responsive client-logo " alt="Logo 8 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent "> 
+                            <img src="images/clientlogos/logo9.png " class="img-responsive client-logo " alt="Logo 9 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent "> 
+                            <img src="images/clientlogos/logo10.png " class="img-responsive client-logo " alt="Logo 10 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent "> 
+                            <img src="images/clientlogos/logo11.png " class="img-responsive client-logo " alt="Logo 11 ">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="image-parent "> 
+                            <img src="images/clientlogos/logo13.png " class="img-responsive client-logo " alt="Logo 11 ">
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="view-more">View More</a>
+            </div>
+            <!--Testimonials Section-->
+            <div class="testimonial-container ">
+                <div class="row ">
+                    <div class="testimonials-box col-sm-3 ">
+                        <i class="fa fa-quote-left " aria-hidden="true "></i>
+                        <div class="testimonial-image ">
+                            <img src="images/user.jpg " class="img-responsive img-circle " alt="Testimonials Image ">
+                        </div>
+                        <div class="testimonial-name ">
+                            <p class="bold-text ">Preetha Reddy</p>
+                            <p>MD, Apollo Hospital</p>
+                            <div class="name-border "></div>
+                        </div>
+                        <div class="testimonial-content ">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <i class="fa fa-quote-right " aria-hidden="true "></i>
+                    </div>
+                    <div class="testimonials-box col-sm-3 ">
+                        <i class="fa fa-quote-left " aria-hidden="true "></i>
+                        <div class="testimonial-image ">
+                            <img src="images/user.jpg " class="img-responsive img-circle " alt="Testimonials Image ">
+                        </div>
+                        <div class="testimonial-name ">
+                            <p class="bold-text ">Preetha Reddy</p>
+                            <p>MD, Apollo Hospital</p>
+                            <div class="name-border "></div>
+                        </div>
+                        <div class="testimonial-content ">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <i class="fa fa-quote-right " aria-hidden="true "></i>
+                    </div>
+                    <div class="testimonials-box col-sm-3 ">
+                        <i class="fa fa-quote-left " aria-hidden="true "></i>
+                        <div class="testimonial-image ">
+                            <img src="images/user.jpg " class="img-responsive img-circle " alt="Testimonials Image ">
+                        </div>
+                        <div class="testimonial-name ">
+                            <p class="bold-text ">Preetha Reddy</p>
+                            <p>MD, Apollo Hospital</p>
+                            <div class="name-border "></div>
+                        </div>
+                        <div class="testimonial-content ">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <i class="fa fa-quote-right " aria-hidden="true "></i>
+                    </div>
+                </div>
+            </div>
+            <!--End of Testimonials Sections-->
+        </div>
+        <!--End of Clients Section-->
+        <!-- Contact Us Section-->
+        <div class="contact-us-container " id="contact">
+            <div class="section-header-text ">
+                <p class="header-text-bold ">Contact Us</p>
+                <div class="text-border "></div>
+            </div>
+            <div class="form-container ">
+                <form class="mui-form ">
+                    <legend>We'll be in touch Soon!</legend>
+                    <div class="row ">
+                        <div class="col-sm-6 mui-textfield mui-textfield--float-label ">
+                            <input type="text ">
+                            <label>First Name</label>
+                        </div>
+                        <div class="col-sm-6 mui-textfield mui-textfield--float-label ">
+                            <input type="text ">
+                            <label>Last Name</label>
+                        </div>
+                    </div>
+                    <div class="mui-textfield mui-textfield--float-label ">
+                        <input type="text ">
+                        <label>Institute</label>
+                    </div>
+                    <div class="mui-textfield mui-textfield--float-label ">
+                        <input type="text ">
+                        <label>Email</label>
+                    </div>
+                    <div class="mui-textfield mui-textfield--float-label ">
+                        <input type="text ">
+                        <label>Phone Number</label>
+                    </div>
+                    <div class="mui-select ">
+                        <select>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>London</option>
+                            <option>Germany</option>
+                        </select>
+                        <label>Country</label>
+                    </div>
+                    <div class="mui-textfield mui-textfield--float-label ">
+                        <input type="text ">
+                        <label>Your Role</label>
+                    </div>
+                    <div class="text-center ">
+                        <button class="btn btn-default career-button-contact ">Contact</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End of Contact Us Section-->
+        <!--Footer Section-->
+        <footer class="footer ">
+            <div class="footer-content ">
+                <div class="footer-links ">
+                    <ul>
+                        <li><a href="# ">About</a></li>
+                        <li><a href="# ">User Agreement</a></li>
+                        <li><a href="# ">Privacy Policy</a></li>
+                        <li><a href="# ">Cookie Policy</a></li>
+                        <li><a href="# ">Sitemap</a></li>
+                    </ul>
+                </div>
+                <p class="footer-text "> PlexusMD Professional network &copy; 2017</p>
+                <div class="social-media-links ">
+                    <span class="fa-stack fa-lg ">
+                        <i class="fa fa-circle fa-stack-2x fa-inverse "></i>
+                        <i class="fa fa-linkedin fa-stack-1x "></i>
+                    </span>
+                    <span class="fa-stack fa-lg ">
+                        <i class="fa fa-circle fa-stack-2x fa-inverse "></i>
+                        <i class="fa fa-facebook fa-stack-1x "></i>
+                    </span>
+                </div>
+            </div>
+        </footer>
+        <!--End of Footer-->
+    </div>
+</body>
+
+</html>
