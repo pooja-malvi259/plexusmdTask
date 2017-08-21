@@ -1,5 +1,41 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/HelveticaNeueMed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body,
+header {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Helvetica;
+}
+
+.section-header-text {
+    padding: 30px;
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.header-text-bold {
+    font-size: 32px;
+}
+
+.text-border {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #d85e3b;
+    margin: 10px auto;
+}
+
+.clearfix {
+    clear: both;
 }

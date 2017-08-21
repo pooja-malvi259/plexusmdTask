@@ -1,0 +1,566 @@
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/HelveticaNeueMed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body,
+header {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Helvetica;
+}
+
+.section-header-text {
+    padding: 30px;
+    text-align: center;
+}
+
+.header-text-bold {
+    font-size: 32px;
+}
+
+.text-border {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #d85e3b;
+    margin: 10px auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.career-button {
+    background-color: #d85e3b;
+    border: 2px solid #d85e3b;
+    font-weight: bold;
+    border-radius: 0;
+    color: #f2f8f6;
+    font-family: Helvetica;
+}
+
+.career-button:hover {
+    background-color: transparent;
+    border: 2px solid #d85e3b;
+    color: #d85e3b;
+}
+
+.jobs-button {
+    background-color: transparent;
+    border: 2px solid #d85e3b;
+    color: #d85e3b;
+    border-radius: 0;
+    font-family: Helvetica;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+
+
+
+
+/***********************************
+            Header CSS
+***********************************/
+
+.header {
+    background: url('../images/Landing_Hero_Image.jpg') no-repeat bottom center scroll;
+    display: table;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-header {
+    width: 20%;
+}
+.container-fluid .navbar-header{
+    display: none;
+}
+
+.navigation {
+    margin: 20px;
+    display: inline-block;
+}
+
+.logo-image {
+    width: 50%;
+    float: left;
+}
+
+.logo-side-text>p {
+    margin-left: 20px;
+}
+
+.header-image {
+    margin: 140px 0;
+}
+
+.header-content-box {
+    background-color: #fff;
+    opacity: 0.75;
+    padding: 20px;
+    max-width: 473px;
+    text-align: left;
+}
+
+.header-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header-subtext {
+    font-size: 24px;
+}
+
+.register-now-button>.career-button {
+    margin: 15px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #d85e3b;
+    border: 2px solid #d85e3b;
+    border-radius: 0;
+    color: #f2f8f6;
+}
+
+.navbar a {
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+.navbar .navbar-nav>li a:hover {
+    background-color: transparent;
+}
+
+.navbar .navbar-nav>li a:focus,
+.navbar .navbar-nav>li a:active {
+    background-color: transparent;
+    border-bottom: 3px solid #d85e3b;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+a.navbar-brand {
+    font-weight: normal;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs>li a:hover,
+.nav-tabs>li a:focus,
+.nav-tabs>li.active a,
+.nav-tabs>li.active>a:hover {
+    border: none;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #d85e3b;
+    background-color: transparent;
+}
+
+
+
+/*******************************
+        About Us CSS
+********************************/
+
+.about-us-container {
+    background-color: #f2f8f6;
+    padding: 20px;
+}
+
+.about-us-icons {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.about-us-box {
+    border-right: 2px solid #e0e0e0;
+}
+
+.about-us-box:nth-child(3) {
+    border: none;
+}
+
+.about-us-image {
+    margin: auto;
+    width: 20%;
+}
+
+.about-us-text {
+    color: #d85e3b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+/********************************
+        Success Stories CSS
+********************************/
+
+.success-stories-container {
+    background-color: #e0e0e0;
+}
+
+.success-stories-image {
+    padding: 50px;
+}
+
+
+/***************************
+        News CSS
+***************************/
+
+.news-container {
+    background-color: #f2f8f6;
+}
+
+.news-content {
+    margin: auto;
+}
+
+.news-content .col-sm-1 {
+    margin: 20% 0;
+    width: 5%;
+    text-align: center;
+}
+
+.news-image-box {
+    box-shadow: 0 0 10px #aaacaf;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 0;
+    max-width: 220px;
+    min-height: 325px;
+}
+
+.news-image-content {
+    text-align: left;
+    padding: 10px;
+}
+
+a.news-content-title {
+
+    color: #d85e3b;
+    font-weight: bold;
+}
+
+a.read-more {
+    color: #d85e3b;
+}
+
+.news-image-title {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 50px;
+}
+
+
+
+
+
+
+/***************************
+        Client CSS
+***************************/
+
+.logo-filter {
+    filter: grayscale(100%);
+    margin-bottom: 20px;
+}
+
+.logo-box {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.client-logo {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    max-width: 100%;
+    /*width: 60%;*/
+}
+
+.clients-container {
+    background-color: #dbdbdb;
+}
+
+.client-icon-container {
+    margin: auto;
+    width: 80%;
+}
+
+.image-parent {
+    position: relative;
+    width: 80%;
+    height: 150px;
+}
+
+.view-more{
+    color: #d85e3b;
+    display: none;
+}
+
+
+
+/***************************
+        Testimonial CSS
+***************************/
+
+.testimonials-box {
+    background-color: #fff;
+    opacity: 0.8;
+    margin: 45px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.testimonial-image {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: -50px;
+}
+
+.testimonial-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.testimonial-container {
+    margin: auto;
+    width: 80%;
+}
+
+.testimonial-name .bold-text {
+    margin: 0;
+}
+
+.testimonials-box .fa {
+    font-size: 3.5rem;
+}
+
+.fa-quote-left {
+    float: left;
+    transform: translate(-50%, -50%);
+}
+
+.fa-quote-right {
+    float: right;
+    transform: translate(50%, 50%);
+}
+
+.name-border {
+    background-color: #000;
+    width: 100px;
+    height: 2.5px;
+    margin: auto;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+
+/***************************
+        Contact Us CSS
+***************************/
+
+.contact-us-container {
+    background-color: #f2f8f6;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #e0e0e0;
+    margin: auto;
+    padding: 50px;
+    width: 40%;
+}
+
+.form-container legend {
+    text-align: center;
+}
+
+.career-button-contact {
+    background-color: #d85e3b;
+    border: 2px solid #d85e3b;
+    color: #f2f8f6;
+}
+
+.career-button-contact:hover {
+    background-color: transparent;
+    border: 2px solid #d85e3b;
+    color: #d85e3b;
+}
+
+
+
+
+/***************************
+        Footer CSS
+***************************/
+
+.social-media-links>.fa-stack {
+    margin-left: 10px;
+}
+
+.footer {
+    background-color: #333333;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-content {
+    padding: 30px;
+    margin: auto;
+    width: 80%;
+}
+
+.footer-text {
+    color: #fff;
+    opacity: 0.70;
+}
+
+.footer-links>ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.footer-links>ul li a {
+    color: white;
+}
+
+.footer-links>ul li a:hover,
+.footer-links>ul li a:active,
+.footer-links>ul li a:focus {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+/*****************************
+        Media Queries
+*****************************/
+
+@media (max-width: 768px) {
+    /*Navigation*/
+    .navbar-brand {
+        padding: 0 7px;
+    }
+    .nav>li>a {
+        padding: 0px 5px
+    }
+    .navbar-fixed-top {
+        padding: 10px;
+    }
+    .navbar-btn {
+        margin-top: 0;
+        padding: 3px;
+    }
+    .testimonials-box{
+        margin: 25px;
+    }
+
+    /* Contact Us Form*/
+    .form-container {
+        width: 60%;
+    }
+
+    /*Contact Us Form Ends*/
+    .footer-links>ul {
+        padding: 0;
+    }
+    .view-more{
+        display: inline;
+    }
+}
+
+@media (max-width: 384px) {
+    /*Navigation*/
+    .header-content-box{
+        max-width: 220px;
+    }
+    .navbar {
+        max-height: 80px;
+    }
+    a.navbar-brand {
+        margin-top: 5px;
+    }
+    .container-fluid .navbar-header {
+        display: inline;
+    }
+    .logo-image {
+        width: 30%;
+    }
+    button.navbar-toggle.collapsed {
+        margin-top: 0;
+        background-color: #d85e3b;
+    }
+    .navbar-collapse .navbar-header {
+        display: none;
+    }
+    .success-stories-image {
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .header-text{
+        font-size: 2.5rem;
+    }
+    .header-subtext{
+        font-size: 1.75rem;
+    }
+
+    /*About Us*/
+    .about-us-box {
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    /* Contact Us Form*/
+    .form-container {
+        width: 90%;
+    }
+}
